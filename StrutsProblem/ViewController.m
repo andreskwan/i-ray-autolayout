@@ -67,4 +67,9 @@
 //        self.bottomView.frame = rect;
 //    }
 //}
+
+-(BOOL)prefersStatusBarHidden
+{
+    return NO;
+}
 @end
