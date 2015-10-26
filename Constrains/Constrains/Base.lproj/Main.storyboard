@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mvo-gs-2p4">
+                                <rect key="frame" x="253" y="550" width="94" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.77502893518518512" green="0.77502893518518512" blue="0.77502893518518512" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="A longer label"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cx1-SH-kLZ">
+                                <rect key="frame" x="199" y="550" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CpP-6c-Jqe">
+                                <rect key="frame" x="253" y="480" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CpP-6c-Jqe" firstAttribute="leading" secondItem="Mvo-gs-2p4" secondAttribute="leading" id="SMi-dW-hat"/>
+                            <constraint firstItem="Mvo-gs-2p4" firstAttribute="leading" secondItem="cx1-SH-kLZ" secondAttribute="trailing" constant="8" id="jnr-bQ-Eig"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cx1-SH-kLZ" secondAttribute="bottom" constant="20" id="oJ4-Gn-gB6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Mvo-gs-2p4" secondAttribute="bottom" constant="20" id="twy-86-hzv"/>
+                            <constraint firstItem="Mvo-gs-2p4" firstAttribute="top" secondItem="CpP-6c-Jqe" secondAttribute="bottom" constant="40" id="uW3-Lc-YSZ"/>
+                            <constraint firstItem="Mvo-gs-2p4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uhY-Er-LYc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="341"/>
+        </scene>
+    </scenes>
+</document>
